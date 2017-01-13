@@ -1,4 +1,4 @@
-# SmartThings-TV-Channels
+# SmartThings-TV-Channels - only works if you have a hub
 
 Allows easy setup of TV channels, if you already have a smartthings device that can send numbers 0-9 to your channel changing device (TV, STB, HTPC, etc).  This can be any kind of device if it operates quickly enough, but for this first version, those keys need to operate like switches (to operate them you send it an "on" command).  Once the kinks of timing are worked out I can add other tytpes of devices but may need input from their owners about what kind of commands it accepts.  This would allow Alexa and Google home to easily send TV channels using non-switch device types.  This is a first attempt, and likely will have issues depending on your device timing. For me, this does work with the RM Bridge LAN (<a href='https://beckyricha.github.io/Broadlink-RM-SmartThings-Alexa.html'>my other repo</a>).  For users of that setup, this should help avoid the tedious programming associated with trying to set up channels with the "multikeys" device (my v1 attempt at TV channels).  
 
