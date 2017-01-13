@@ -5,16 +5,18 @@ Allows easy setup of TV channels, if you already have a smartthings device that 
 Here's a quick overview.  I'll add more detail as it gets used and I see what questions people have.
 
 ## Install the apps
+If you know how to automaatically update to your smartthings account from a repo, this is set up so that should work.  Otherwise, just follow these steps:
+
 1. Install the device handler, "dummyswitch" here's how:
-..* go to https://graph.api.smartthings.com/ and create or login to your account
-..* go to my Device Handlers and select Create new device handler
-..* click "from code"
-..* paste the contents of the file Dummy Switch Device Handler into the box and save
-..* click "publish" and then "for me"
+  * go to https://graph.api.smartthings.com/ and create or login to your account
+  * go to my Device Handlers and select Create new device handler
+  * click "from code"
+  * paste the contents of the file <a href='https://github.com/beckyricha/SmartThings-TV-Channels/blob/master/devicetypes/beckyricha/dummyswitch.src/dummyswitch.groovy'>dummyswitch.groovy</a> into the box and save
+  * click "publish" and then "for me"
 
-2. Install the SmartApp TV Channel Creator - same as steps aboce, except that you go to "my smart apps" instead of "my device handlers" to cfreate a new Smart App.  The code comes frorm my TV Channel Creator file here.
+2. Install the SmartApp TV Channel Creator - same as steps above, except that you go to "my smart apps" instead of "my device handlers" to create a new Smart App.  The code comes from my <a href='https://github.com/beckyricha/SmartThings-TV-Channels/tree/master/smartapps/beckyricha/tv-channel-creator.src'>tv-channel-creator.src</a> file.
 
-3.  Install the SmartApp TV Channel Handler, also from the file of the same name here,
+3.  Install the SmartApp TV Channel Handler the same wway, using the code in the <a href='https://github.com/beckyricha/SmartThings-TV-Channels/tree/master/smartapps/beckyricha/tv-channel-handler.src'>tv-channel-handler.src</a> file.
 
 ## Set up your channels. Take steps in this order:
 1. Make sure you have separate devices set up for the numbers 0-9.  This can be any type of device and can be called whatever you want. (to use Broadlink, it has to be set up and names so that will work).  Make sure these all work on their own before trying to use them through an app.
